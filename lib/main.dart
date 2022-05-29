@@ -10,11 +10,11 @@ class MentorsApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
-        accentColor: Color(0xFF313131)
-      ),
+          colorScheme:
+              ColorScheme.fromSwatch(primarySwatch: Colors.orange).copyWith(
+        secondary: Color(0xFF313131),
+      )),
       home: Mentors(),
     );
   }
 }
-

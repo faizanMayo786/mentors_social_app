@@ -108,19 +108,23 @@ class _MentorsState extends State<Mentors> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.rss_feed),
-            title: Text("Updates", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            label: 'Updates',
+            // title: Text("Updates", style: TextStyle(color: Colors.black, fontSize: 16.0),)
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.group),
-            title: Text("Mentors", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            // title: Text("Mentors", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            label: "Mentors",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.message),
-            title: Text("Messages", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            // title: Text("Messages", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            label: "Messages",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            title: Text("Profile", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            // title: Text("Profile", style: TextStyle(color: Colors.black, fontSize: 16.0),)
+            label: "Profile",
           )
         ],
       ),
